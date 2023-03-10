@@ -1,9 +1,9 @@
-public class ServiceApplication {
+public class PersonService {
     String name;
     double age;
     double height;
 
-    public ServiceApplication (String name, double age, double height) {
+    public PersonService(String name, double age, double height) {
         this.name = name;
         this.age = age;
         this.height = height;
