@@ -9,13 +9,13 @@ public class ServiceApplication {
         this.height = height;
     }
 
-    public void User () {
+    public void userDescribe() {
         System.out.println(name + " " + age + " " + height);
         if (name != null) {
             if (age > 30 && height > 160) {
-                System.out.println("User is older than 30 and taller than 160cm");
+                System.out.println("userDescription is older than 30 and taller than 160cm");
             } else {
-                System.out.println("User is 30 (or younger) or 160cm (or shorter)");
+                System.out.println("userDescription is 30 (or younger) or 160cm (or shorter)");
             }
         }
     }
