@@ -11,11 +11,11 @@ public class Grades {
         if (this.size == 10) {
             return;
         }
-        this.grades[this.size] = value;
+        this.grades[size] = value;
         this.size++;
     }
 
-    public void lastGrade () {
+    public void lastGrade() {
         System.out.println(this.grades[this.size-1]);
     }
 
